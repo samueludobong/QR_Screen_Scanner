@@ -1,0 +1,8 @@
+Arguments: ['C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\dist\\scanner.exe', 'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\dist\\scanner.exe', 'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\qrcode_www.twitch.tv.png']
+Arguments: ['C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\dist\\scanner.exe', 'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\dist\\scanner.exe', 'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\qrcode_www.twitch.tv.png']
+Arguments: ['C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\dist\\scanner.exe', 'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\dist\\scanner.exe', 'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\qrcode_www.twitch.tv.png']
+Arguments: ['C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\dist\\scanner.exe', 'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\dist\\scanner.exe', 'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\qrcode_www.twitch.tv.png']
+Arguments: ['qr_main.py', 'qrcode_www.twitch.tv.png']
+Arguments: ['qr_main.py', 'qrcode_www.twitch.tv.png']
+Arguments: ['qr_main.py', 'qrcode_www.twitch.tv.png']
+Arguments: ['C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\qr_main.py']

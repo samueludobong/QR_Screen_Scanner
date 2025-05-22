@@ -1,0 +1,6 @@
+Failed to open file: C:\Users\samue\Documents\Projects\QR_SCREEN_CAPTURE\dist\scanner.exe
+Unsupported file type.
+Failed to open file: C:\Users\samue\Documents\Projects\QR_SCREEN_CAPTURE\dist\scanner.exe
+Unsupported file type.
+Failed to open file: C:\Users\samue\Documents\Projects\QR_SCREEN_CAPTURE\dist\scanner.exe
+Unsupported file type.

@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="assets">
+    <file>cancel.png</file>
+    <file>add.png</file>
+    <file>keep.png</file>
+    <file>main_icon.png</file>
+    <file>keep_off.png</file>
+  </qresource>
+</RCC>

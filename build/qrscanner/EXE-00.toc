@@ -1,0 +1,72 @@
+('C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\build\\qrscanner\\QR '
+ 'Barcode Scanner.exe',
+ False,
+ False,
+ True,
+ ['C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\frames\\favicon.ico'],
+ None,
+ False,
+ False,
+ b'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<assembly xmlns='
+ b'"urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">\n  <assemblyIde'
+ b'ntity version="1.0.0.0" processorArchitecture="*" name="QR Barcode Scanner" '
+ b'type="win32"/>\n  <description>For scanning QR Codes</description>\n  <tru'
+ b'stInfo xmlns="urn:schemas-microsoft-com:asm.v3">\n    <security>\n      <r'
+ b'equestedPrivileges>\n        <requestedExecutionLevel level="asInvoker" u'
+ b'iAccess="false"/>\n      </requestedPrivileges>\n    </security>\n  </trust'
+ b'Info>\n  <dependency>\n    <dependentAssembly>\n      <assemblyIdentity typ'
+ b'e="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" process'
+ b'orArchitecture="*" publicKeyToken="6595b64144ccf1df" language="*"/>\n    '
+ b'</dependentAssembly>\n  </dependency>\n</assembly>',
+ True,
+ False,
+ None,
+ None,
+ None,
+ 'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\build\\qrscanner\\QR '
+ 'Barcode Scanner.pkg',
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\build\\qrscanner\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\build\\qrscanner\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\build\\qrscanner\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\build\\qrscanner\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\build\\qrscanner\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\build\\qrscanner\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\venv310\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\venv310\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\venv310\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\venv310\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt5',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\venv310\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5.py',
+   'PYSOURCE'),
+  ('qr_main',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\qr_main.py',
+   'PYSOURCE')],
+ [],
+ False,
+ False,
+ 1747888181,
+ [('runw.exe',
+   'C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\venv310\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
+   'EXECUTABLE')],
+ 'C:\\Users\\samue\\AppData\\Local\\Programs\\Python\\Python310\\python310.dll')

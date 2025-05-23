@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "changelog": "Initial release: screen scanning and QR detection.",
   "download_url": "https://github.com/yourname/qrscanner/releases/latest/download/qrscanner.exe"
 }

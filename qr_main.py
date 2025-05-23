@@ -6,9 +6,6 @@ import subprocess
 import tempfile
 import threading
 from urllib.parse import urlparse
-
-from dotenv import load_dotenv
-load_dotenv()
 import re
 from time import sleep
 import pyperclip
@@ -27,10 +24,6 @@ import win32api
 import winerror
 import webbrowser
 dir = os.path.dirname(__file__)
-# from supabase import create_client
-# url = os.environ.get("SUPABASE_URL")
-# key = os.environ.get("SUPABASE_KEY")
-# supabase = create_client(url, key)
 import requests
 
 PORT = 65432
@@ -268,16 +261,6 @@ class QRScannerApp(QMainWindow):
                 self.adduser.show()
             else:
                 self.adduser.hide()
-                # try:
-                #     with open("session.json", "r") as f:
-                #         session_data = json.load(f)
-                #     supabase.auth.set_session(
-                #         session_data["access_token"],
-                #         session_data["refresh_token"]
-                #     )
-                #     print("Session restored.")
-                # except FileNotFoundError:
-                #     print("No saved session found.")
         # self.adduser.clicked.connect(self.profile)
         self.auto3.clicked.connect(self.automatic_qr_scan)
         self.manual3.clicked.connect(self.manual_capture)
@@ -323,86 +306,6 @@ class QRScannerApp(QMainWindow):
         except Exception as E:
             pass
             return False
-
-    def profile(self):
-        self.pinmode = 1
-        self.label_2.setPixmap(
-            QtGui.QPixmap(os.path.join(dir, "frames/main_icon.png")))
-        filename = "account_skip.txt"
-        if os.path.exists(filename):
-            with open(filename, "r") as file:
-                content = file.read()
-            if content == "1":
-                self.pinmode = 0
-                self.open_main_menu()
-        else:
-            self.stackedWidget.setCurrentWidget(self.start)
-            self.skip_uss.clicked.connect(self.skip_account)
-            self.addus.clicked.connect(self.add_us)
-            self.adduser_5.clicked.connect(self.close)
-
-    def skip_account(self):
-        filename = "account_skip.txt"
-        if not os.path.exists(filename):
-            with open(filename, "w") as file:
-                file.write("1")
-            print(f"{filename} created.")
-            self.pinmode = 0
-            self.open_main_menu()
-        else:
-            pass
-
-    def add_us(self):
-        icon = QIcon(os.path.join(dir, "frames/cancel.png"))
-        self.adduser_3.setIcon(icon)
-        self.stackedWidget.setCurrentWidget(self.startup_user)
-        self.createus.clicked.connect(self.create_us)
-        self.adduser_3.clicked.connect(self.profile)
-        self.lolin.clicked.connect(self.pull_req)
-
-    def pull_req(self):
-        users_email = self.emailus.text().strip()
-        users_password = self.passus.text().strip()
-        result = supabase.auth.sign_in_with_password({ "email": users_email, "password": users_password })
-        if result.session:
-            with open("session.json", "w") as f:
-                json.dump(result.session.model_dump(), f, default=str)
-            print("Login successful. Session saved.")
-            filename = "account_skip.txt"
-            if not os.path.exists(filename):
-                with open(filename, "w") as file:
-                    file.write("0")
-                print(f"{filename} created.")
-                self.pinmode = 0
-                self.open_main_menu()
-            else:
-                pass
-        else:
-            print("Login failed.")
-
-    def create_us(self):
-        icon = QIcon(os.path.join(dir, "frames/cancel.png"))
-        self.adduser_4.setIcon(icon)
-        self.stackedWidget.setCurrentWidget(self.create)
-        self.backtous.clicked.connect(self.add_us)
-        self.adduser_4.clicked.connect(self.profile)
-        self.createfinal.clicked.connect(self.add_test)
-
-    def add_test(self):
-        username = self.usernamefield.text().strip()
-        email = self.emailfield.text().strip()
-        password = self.passwordfield.text()
-        confirmit = self.confirm_da_password.text()
-        user = supabase.auth.sign_up({
-            "email": email,
-            "password": password,
-            "options": {
-                "data": {
-                    "display_name": username
-                }
-            }
-        })
-        print(user)
 
     def automatic_qr_scan(self):
         """Captures the screen, scans for QR codes, and processes them accordingly."""

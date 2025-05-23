@@ -1,8 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\SendToQRBarcodeScanner]
-@="Send to QR Barcode Scanner"
-"Icon"="C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\dist\\scanner.exe\"
-
-[HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\SendToQRBarcodeScanner\command]
-@="\"C:\\Users\\samue\\Documents\\Projects\\QR_SCREEN_CAPTURE\\dist\\scanner.exe\" \"%L\""

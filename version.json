@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "changelog": "Initial release: screen scanning and QR detection.",
   "download_url": "https://github.com/samueludobong/QR_Screen_Scanner/releases/download/V1.1/ScannerSetup.exe"
 }

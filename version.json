@@ -1,5 +1,5 @@
 {
   "version": "1.0.2",
-  "changelog": "Implemented an automatic update checker that regularly checks for new updates, and if available, seamlessly downloads and installs them.",
+  "changelog": "Added Added Startup Toggle, Most stable release",
   "download_url": "https://github.com/samueludobong/QR_Screen_Scanner/releases/download/V1.0.1/ScannerSetup.exe"
 }
